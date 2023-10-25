@@ -1,0 +1,7 @@
+package StockExc;
+
+public class StockValidationException {
+	public StockValidationException(String msg) {
+		super(msg);
+	}
+}

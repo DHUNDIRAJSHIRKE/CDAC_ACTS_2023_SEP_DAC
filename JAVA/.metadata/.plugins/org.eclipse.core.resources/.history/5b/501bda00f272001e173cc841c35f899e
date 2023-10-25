@@ -1,0 +1,57 @@
+package core;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+import static taskUtils.TaskUtils.*;;
+public class TaskTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean exit = false;
+		int count = 0;
+		ArrayList<Task> taskList = new ArrayList<>();
+		taskList = populateList();
+		count =2;
+		try (Scanner sc = new Scanner(System.in)) {
+			while (!exit) {
+				System.out.print(
+						"1.Add Task 2.Delete task 3.Update Task 4.Display All 5.Display All pending 6.sort by date 0.Exit: ");
+				try {
+				switch (sc.nextInt()) {
+				case 1:
+					System.out.print("Enter Name, Desc, Date(yyyy-MM-dd: ");
+					taskList.add(count++,validateAllInputs(sc.next(),sc.next(),sc.next()));
+					System.out.println("Task Added successfully!!");
+					break;
+				case 2:
+					System.out.print("Enter TaskID : ");
+					sc.nextInt();
+					break;
+				case 3:
+
+					break;
+				case 4:
+					
+					break;
+				case 5:
+
+					break;
+				case 6:
+
+					break;
+				case 0:
+					exit = true;
+					break;
+				default:
+					System.out.println("Invalid Input!!");
+					break;
+				}
+				}catch(Exception e) {
+					sc.nextLine();
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+
+}

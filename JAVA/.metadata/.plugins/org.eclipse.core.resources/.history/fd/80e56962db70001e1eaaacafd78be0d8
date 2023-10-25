@@ -1,0 +1,5 @@
+package StockTradingService;
+
+public class Stock {
+
+}

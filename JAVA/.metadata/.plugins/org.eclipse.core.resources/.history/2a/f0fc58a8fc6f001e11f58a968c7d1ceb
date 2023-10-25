@@ -1,0 +1,8 @@
+package lambda;
+
+public class test1 {
+	public static void main(String[] args) {
+		Runnable r = (int a, int b)->System.out.println("sum of the numbers is: "+(a+b));
+		r.run(3,56);
+	}
+}

@@ -1,0 +1,12 @@
+package lambda;
+
+public class test1 {
+	public static int main(String[] args) {
+		Runnable r = run(int a,int  b)-> {return a+b;}
+		int i = r.run(2,8);
+		int diff(int c,int d) {
+			return c-d;
+		}
+		
+	}
+}

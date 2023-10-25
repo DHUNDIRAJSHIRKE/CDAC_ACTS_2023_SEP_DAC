@@ -1,0 +1,108 @@
+package core;
+
+import java.io.BufferedOutputStream;
+import java.time.LocalDate;
+import java.time.format.DateTimeParseException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+
+import custom_Ordering.TaskComparator;
+
+import static taskUtils.TaskUtils.*;;
+
+public class TaskTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean exit = false;
+		List<Task> taskList = new ArrayList<>(populateList());
+		try (Scanner sc = new Scanner(System.in);BufferedOutputStream BOS = new BufferedOutputStream( new PrintWriter("taskFile.txt"))) {
+			while (!exit) {
+				System.out.print(
+						"\n1.Add Task 2.Delete task 3.Update Task 4.Display All 5.Display All pending 6.Display All pending for Today 7.sort by date 0.Exit: ");
+				try {
+					switch (sc.nextInt()) {
+					case 1:
+						System.out.print("Enter Name, Desc, Date(yyyy-MM-dd: ");
+						Task newTask = validateAllInputs(sc.next(), sc.next(), sc.next());
+						taskList.add(newTask.getTaskId()-101, newTask);
+						System.out.println("Task Added successfully!!");
+						break;
+					case 2:
+						System.out.print("Enter TaskID : ");
+						Task t_delete = searchById(sc.nextInt(), taskList);
+						System.out.println("Following task has been deleted : \n" + t_delete.getTaskName());
+						
+						break;
+					case 3:
+						System.out.print("Enter TaskID : ");
+						Task t_update = searchById(sc.nextInt(), taskList);
+						System.out.println("1. IN_PROGRESS 2.COMPLETED: ");
+						int st = sc.nextInt();
+						if(st==1) {
+							t_update.setStatus(Status.valueOf("IN_PROGRESS"));
+						}
+						if(st==2) {
+							t_update.setStatus(Status.valueOf("COMPLETED"));
+						}
+						else {
+							System.out.println("invalid Choice!!");
+						}
+						break;
+					case 4:
+						for(Task t : taskList) {
+							System.out.println(t);
+						}
+						System.out.println();
+						break;
+					case 5:
+						for(Task t : taskList) {
+							if(t.getStatus() == Status.valueOf("PENDING") && t.isActive()){
+								System.out.println(t);								
+							}
+						}
+						System.out.println();
+						break;
+					case 6:
+						for(Task t : taskList) {
+							if(t.getStatus() == Status.valueOf("PENDING") && t.isActive() && t.getTaskDate().equals(LocalDate.now())){
+								System.out.println(t);								
+							}
+						}
+						System.out.println();
+						break;
+					case 7:
+						Collections.sort(taskList,new TaskComparator());
+						for(Task t : taskList) {
+							if(t.getStatus() == Status.valueOf("PENDING") && t.isActive()){
+								System.out.println(t);								
+							}
+						}
+						System.out.println();
+						break;
+					case 8:
+						
+						break;
+					case 0:
+						exit = true;
+						break;
+					default:
+						System.out.println("Invalid Input!!");
+						break;
+					}
+				}catch(DateTimeParseException DTPE) {
+					System.out.println("Wrong Date Format!!");
+				}
+				catch (NullPointerException NPE) {
+
+				} catch (Exception e) {
+					sc.nextLine();
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+
+}

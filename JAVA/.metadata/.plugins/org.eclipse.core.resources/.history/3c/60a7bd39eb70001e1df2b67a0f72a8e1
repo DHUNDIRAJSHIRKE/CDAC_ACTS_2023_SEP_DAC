@@ -1,0 +1,55 @@
+package StockTradingService;
+
+import java.util.Scanner;
+
+import StockExc.StockValidationException;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import utils.StockUtils;
+import utils.StockUtils.*;
+
+public class Tester {
+	public static void main(String[] args) {
+		boolean exit = false;
+		StockUtils su = new StockUtils();
+		HashMap<String, Stock> stockMap = new HashMap<>();
+		stockMap = StockUtils.populateHashMap();
+		try (Scanner sc = new Scanner(System.in)) {
+			while (!exit) {
+				try {
+					System.out.println("Enter ");
+					switch (sc.nextInt()) {
+					case 1:
+						Stock newStock = StockUtils.validateAllInputs(sc.next(), sc.next(), sc.next(), sc.nextDouble(),
+								sc.next(), sc.nextInt(), stockMap);
+						stockMap.putIfAbsent(newStock.getStockId(), newStock);
+						break;
+					case 2:
+						
+						break;
+					case 3:
+
+						break;
+					case 4:
+
+						break;
+					case 5:
+
+						break;
+					case 6:
+						exit = true;
+						break;
+					default:
+						System.out.println("Enter a valid input:");
+						break;
+					}
+				} catch (StockValidationException SVE) {
+					SVE.printStackTrace();
+
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+package StockTradingService;
+
+import java.util.Scanner;
+import java.util.HashMap;
+import java.util.Map;
+
+import utils.StockUtils;
+//import utils.StockUtils.*;
+//import utils.
+public class Tester {
+	public static void main(String[] args) {
+		boolean exit = false;
+		StockUtils su = new StockUtils();
+		Map<String, Stock> stockMap = new HashMap<>();
+		stockMap = su.populateHashMap();
+		try (Scanner sc = new Scanner(System.in)) {
+			while (!exit) {
+				System.out.println("Enter ");
+				switch (sc.nextInt()) {
+				case 1:
+					
+					break;
+				case 2:
+
+					break;
+				case 3:
+
+					break;
+				case 4:
+
+					break;
+				case 5:
+
+					break;
+				case 6:
+					exit = true;
+					break;
+				default:
+					System.out.println("Enter a valid input:");
+					break;
+				}
+			}
+		}
+	}
+}

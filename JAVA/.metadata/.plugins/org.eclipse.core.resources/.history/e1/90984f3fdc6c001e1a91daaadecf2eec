@@ -1,0 +1,39 @@
+package cms;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeParseException;
+import java.util.ArrayList;
+import cms.custom.CustomerVerificationException;
+
+public class CustomerValidRules {
+	public static void DuplicateCust(String em, ArrayList<Customer> people) throws CustomerVerificationException {
+		Customer cust = new Customer(em);
+		if (people.contains(cust)) {
+			throw new CustomerVerificationException("Try another E-mail.");
+		}
+		System.out.println("No duplicates found!");
+	}
+
+	public static LocalDate parseAndValidateDate(String uncheckedDob)
+			throws DateTimeParseException, CustomerVerificationException {
+		LocalDate date = LocalDate.parse(uncheckedDob);
+		return date;
+	}
+
+	public static Plan parseAndValidatePlan(String preCheckColor) {
+		return Plan.valueOf(preCheckColor.toUpperCase());
+	}
+
+	public static Customer vaidateAllInputs(String fName, String lName, String em, String password, double regAmount,
+			String dob, String plan, ArrayList<Customer> people)
+			throws CustomerVerificationException, DateTimeParseException, IllegalArgumentException {
+
+		DuplicateCust(em, people);
+		LocalDate formDob = parseAndValidateDate(dob);
+		Plan checkedplan = parseAndValidatePlan(plan);
+		Customer c = new Customer(fName, lName, em, password, regAmount, formDob, checkedplan);
+		return c;
+	}
+}
+
+//String fName, String lName, String eMail, String password, double regAmount, LocalDate dob,Plan plan

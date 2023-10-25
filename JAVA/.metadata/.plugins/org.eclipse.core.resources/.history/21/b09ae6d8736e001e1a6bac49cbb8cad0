@@ -1,0 +1,11 @@
+package cms.utils;
+import cms.Customer.*;
+import java.util.ArrayList;
+import cms.custom.CustomerVerificationException;
+
+import cms.Customer;
+public class CustUtils {
+	public static Customer FindByEmail(String em,ArrayList<Customer> people) throws CustomerVerificationException {
+		return Customer(""); 
+	}
+}

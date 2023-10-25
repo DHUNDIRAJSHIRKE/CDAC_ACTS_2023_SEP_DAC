@@ -1,0 +1,12 @@
+package StockTradingService;
+import java.util.Scanner;
+public class Tester {
+	public static void main(String[] args) {
+		boolean exit = false;
+		try(Scanner sc = Scanner(System.in)){
+			while(!exit) {
+				
+			}
+		}
+	}
+}

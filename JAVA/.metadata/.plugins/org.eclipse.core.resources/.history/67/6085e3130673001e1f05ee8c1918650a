@@ -45,7 +45,7 @@ public class TaskTester {
 				try {
 					switch (sc.nextInt()) {
 					case 1:
-						System.out.print("Enter Name, Desc, Date(yyyy-MM-dd:     ");
+						System.out.print("Enter Name, Desc, Date(yyyy-MM-dd: ");
 						Task newTask = validateAllInputs(sc.next(), sc.next(), sc.next());
 						taskList.add(newTask.getTaskId()-101, newTask);
 						System.out.println("Task Added successfully!!");

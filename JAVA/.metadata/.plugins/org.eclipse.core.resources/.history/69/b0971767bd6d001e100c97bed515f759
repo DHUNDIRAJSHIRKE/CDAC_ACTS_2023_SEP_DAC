@@ -1,7 +1,0 @@
-package abhay2.LIC;
-
-public class Method {
-	public void test2() {
-		System.out.println("We're in class method and method Test2 ");
-	}
-}

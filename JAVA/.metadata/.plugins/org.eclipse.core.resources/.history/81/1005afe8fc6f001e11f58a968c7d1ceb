@@ -1,8 +1,0 @@
-package lambda;
-
-public class test1 {
-	public static void main(String[] args) {
-		Runnable r = (int a, int b)-> {return a+b;}
-		double i = r.run(3,56);
-	}
-}

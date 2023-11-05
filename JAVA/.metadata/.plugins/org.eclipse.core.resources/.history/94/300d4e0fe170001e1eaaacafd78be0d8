@@ -1,5 +1,0 @@
-package StockExc;
-
-public class StockValidationException {
-
-}

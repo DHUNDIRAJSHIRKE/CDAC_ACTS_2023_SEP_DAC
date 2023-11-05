@@ -1,7 +1,0 @@
-package cms;
-
-public class CustomeVerificationException extends Exception {
-	public CustomeVerificationException(String msg) {
-		super(msg);
-	}
-}

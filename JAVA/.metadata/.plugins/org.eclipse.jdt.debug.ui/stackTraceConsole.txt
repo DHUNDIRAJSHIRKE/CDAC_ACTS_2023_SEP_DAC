@@ -1,3 +1,0 @@
-if(basket[i] instanceof Mango) {
-							
-						}

@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <title>Feedback Page</title>
+    <style>
+      #wholeBody {
+        border: 3px solid black;
+      }
+      h2 {
+        margin: 2px;
+      }
+      .req {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wholeBody">
+      <h2>Feedback Page</h2>
+      <h4>Members of group: Lorem Ipsum</h4>
+      <div>
+        <p>
+          This form is for collecting feedback from club members about the
+          problems and difficulties faced by them while purchasing items in a
+          sports website.
+        </p>
+        <h4>Instructions to fill the form:</h4>
+        <ol>
+          <li>Enter full name.</li>
+          <li>Describe your issue in complete details.</li>
+          <li>
+            If the notification of the problem is available, please paste in the
+            respective field.
+          </li>
+        </ol>
+        <form method="post">
+          <div>
+            Type of Problem:
+            <lable
+              ><input
+                type="radio"
+                name="problem"
+                value="tech"
+              />Technical(e.g.Website is down)
+            </lable>
+            <lable
+              ><input type="radio" name="problem" value="product" />Product not
+              available
+            </lable>
+            <lable
+              ><input type="radio" name="problem" value="info" />Missing Info
+              about product
+            </lable>
+          </div>
+          <br />
+          <div
+            style="
+              border: 2px dashed blue;
+              width: 700px;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            "
+          >
+            <br />
+            Username: <input type="text" style="width: 200px" required /><span
+              class="req"
+              >*</span
+            ><br />
+            <br />
+            Email:
+            <input type="email" style="width: 200px" required /><span
+              class="req"
+              >*</span
+            ><br />
+            <br />
+            Location:<input type="text" required /><span class="req">*</span
+            ><br />
+            <br />
+            Phone No.:
+            <input type="number" />
+            <br />
+            <br />
+            Description:<textarea cols="10" rows="1"></textarea
+            ><span class="req">*</span><br />
+            <br />
+            <br />
+            Notification of problem solved:<input type="text" />
+            <br />
+            <br />
+          </div>
+
+          <br />
+          <button type="submit">Submit</button>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="reset">Reset</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

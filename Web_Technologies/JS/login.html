@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <script>
+        function validate() {
+          // validate name
+          var flag = validateName();
+          var flag1 = validatePassword();
+          return flag && flag1;
+      }
+      function validateName(){
+          var name= document.getElementById("uname").value;
+          if(name.trim().length>0){
+
+          }else{
+            return false;
+          }
+      }
+      function validatePassword{
+
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <form action="file1" method="post" onsubmit="return validate()">
+        <lable>Username: </lable><input id="uname" type="text" /><br /><br />
+        <label>Enter Password: </label><input type="password" /><br /><br />
+        <label>Confirm Password: </label><input type="password" /> <br /><br />
+        <button type="submit" name="submit" onsubmit="validate()">Login</button>
+        <!--onsubmit event occurs only on form. 
+            onsubmit function should return boolean -->
+        <br /><br />
+        <button type="reset" name="reset">Login</button>
+      </form>
+    </div>
+  </body>
+</html>

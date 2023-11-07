@@ -12,8 +12,14 @@
         border: 1px solid black;
         border-collapse: collapse;
       }
-     
-     
+     .noBorder{
+      border: none;
+     }
+     .mainCont{
+      display:flex;
+      justify-content: space-between;
+     }
+
     </style>
   </head>
 
@@ -28,11 +34,38 @@
         background-color: aquamarine;
         align-items: center;
         justify-content: space-between;
+        padding: 3px;
+        width: 98%;
       "
-    >
-      <pre>
-         Home Page         Reservations         Facilities           Virtual Tour           Calendar of Events            Staff         Directions        FAQ</pre
-      >
+    ><flex-container class="mainCont" style=" justify-content: space-between ;">
+      <flex-item>Home Page</flex-item>
+      <flex-item>Reservations</flex-item>
+      <flex-item>Facilities</flex-item>
+      <flex-item>Virtual Tour</flex-item>
+      <flex-item>Calendar of Events</flex-item>
+      <flex-item>Staff</flex-item>
+      <flex-item>Directions</flex-item>
+      <flex-item>FAQ</flex-item>
+    </flex-container>
+    <flex style="flex-wrap: wrap; ">
+      <div class="fcontainer"> </div>
+      <table class="noBorder">
+        <tr >
+          <div><td class="noBorder"></td></div>
+          <div><td class="noBorder"></td></div>
+          
+          
+          
+          <td class="noBorder"></td>
+          <td class="noBorder"></td>
+          <td class="noBorder"></td>
+          <td class="noBorder"></td>
+          <td class="noBorder"></td>
+          <td class="noBorder"></td>
+        </tr>  
+      </table>
+    </flex>
+ 
     </nav>
     <div style="text-align: right">
       Reservations for Conference Rooms<br />Tuesday, April 11

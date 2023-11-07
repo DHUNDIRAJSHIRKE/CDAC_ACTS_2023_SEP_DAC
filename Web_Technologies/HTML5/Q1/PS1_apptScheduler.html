@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointment Scheduler</title>
+    <style>
+      fieldset {
+        border: 3px solid black;
+      }
+      legend {
+        font-size: x-large;
+      }
+      button {
+        width: 100px;
+        height: 35px;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Appointment Scheduler</h1>
+    <form method="post">
+      <fieldset id="first_set">
+        <legend>Personal Information</legend>
+        <br />
+        <label for="name">Name</label><br /><input
+          type="text"
+          minlength="1"
+          required
+        /><br /><br />
+        <label for="Phone">Phone Number</label><br /><input
+          type="number"
+          minlength="10"
+          maxlength="10"
+        /><br /><br />
+        <label for="email">Email</label><br /><input
+          type="email"
+          minlength="1"
+          required
+        /><br /><br />
+        <label for="dob">Date of Birth</label><br /><input
+          type="date"
+          required
+        /><br /><br />
+      </fieldset>
+      <fieldset id="second_set">
+        <legend>Appointment Request</legend>
+        <br />
+        <label for="reason">What is the reason for your visit?</label
+        ><br /><textarea cols="15" rows="1"></textarea><br /><br />
+        <label for="pain">Current Pain level</label><br /><input
+          type="range"
+        /><br /><br />
+        <label for="prefTime">Preferred Date</label><br /><input
+          type="date"
+          required
+        /><br /><br />
+        <label for="time">Preferred Time</label><br /><input
+          type="time"
+          required
+        /><br /><br />
+      </fieldset>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

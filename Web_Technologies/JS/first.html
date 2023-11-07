@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <script>
+      function calculate(choice) {
+        var num1 = parseInt(document.getElementById("n1").value);
+        //"===" checks for type as well. strict checking
+        // 1==1 (T) 1===1 (T) 1=='1' (T) 1==='1' (F)
+        //===checks value as well as type i.e. strict checking
+        //== checks only value not type
+        if (choice === "a") {
+          var num2 = Number(document.getElementById("n2").value);
+          var result = num1 + num2;
+          // document.write("addition: " + add);
+          // document.getElementById("answer").innerHTML += "addition: " + add;
+          alert("addition: " + result);
+        } else {
+          var result = 1;
+          for (var i = 1; i <= num1; i++) {
+            result = result * i;
+          }
+          alert("Factorial:  " + result);
+          document.getElementById("answer").innerHTML = "Factorial: " + result;
+        }
+        document.getElementById("result").value = result;
+      }
+    </script>
+  </head>
+  <body>
+    <header>Form</header>
+    <!-- <script src="first.js"></script> -->
+    <!-- <script src="second.js"></script> -->
+    <fieldset>
+      <legend>Numbers</legend>
+      <form>
+        <label for="nm2">Number 1: </label>
+        <input type="number" id="n1" />
+        <br /><br />
+        <label for="nm2">Number 2: </label>
+        <input id="n2" type="number" />
+        <br /><br />
+        <button
+          type="button"
+          name="add"
+          id="add"
+          value="add"
+          onclick="calculate('a')"
+        >
+          Addition
+        </button>
+        <button
+          type="submit"
+          name="fact"
+          id="fact"
+          value="fact"
+          onclick="calculate()"
+        >
+          Facorial
+        </button>
+        <button type="reset">Cancel</button>
+      </form>
+      <p id="answer"></p>
+    </fieldset>
+  </body>
+</html>

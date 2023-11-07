@@ -9,13 +9,13 @@
         margin-top: 0px;
         margin-bottom: 0px;
       }
-      #innerLeft {
+      /* #innerLeft { 
         border: 1px solid black;
         margin-right: 20px;
-      }
-      #innerRight {
+      }*/
+      /* #innerRight {
         border: 1px solid black;
-      }
+      }*/
     </style>
   </head>
   <body>
@@ -89,34 +89,37 @@
           <tr>
             <td>
               <div id="innerLeft">
-                <h5 style="margin-top: 1px; margin-bottom: 1px">
-                  Types of sites visited
-                </h5>
-                What type of websites do you visit most often?<br />Check all
-                that apply<br />
-                <label><input type="checkbox" />Self Improvement </label><br />
-                <label><input type="checkbox" />Entertainment</label><br />
-                <label><input type="checkbox" />News and Sports</label><br />
-                <label><input type="checkbox" />Reference</label><br />
-                <label><input type="checkbox" />Email</label><br />
+                <fieldset>
+                  <legend>Types of sites visited</legend>
+                  <h5 style="margin-top: 1px; margin-bottom: 1px"></h5>
+                  What type of websites do you visit most often?<br />Check all
+                  that apply<br />
+                  <label><input type="checkbox" />Self Improvement </label
+                  ><br />
+                  <label><input type="checkbox" />Entertainment</label><br />
+                  <label><input type="checkbox" />News and Sports</label><br />
+                  <label><input type="checkbox" />Reference</label><br />
+                  <label><input type="checkbox" />Email</label><br />
+                </fieldset>
               </div>
             </td>
             <td>
               <div id="innerRight">
-                <h5 style="margin-top: 1px; margin-bottom: 1px">
-                  Time spent using Internet
-                </h5>
-                During an average weekf, how long do you spend online?<br />Check
-                all that apply<br />
-                <label><input type="radio" name="time" />0-3 Hours </label
-                ><br />
-                <label><input type="radio" name="time" />4-6 Hours </label
-                ><br />
-                <label><input type="radio" name="time" />7-10 Hours </label
-                ><br />
-                <label><input type="radio" name="time" />11-14 Hours </label
-                ><br />
-                <label><input type="radio" name="time" />15+</label><br />
+                <fieldset>
+                  <legend>Time spent using Internet</legend>
+
+                  During an average weekf, how long do you spend online?<br />Check
+                  all that apply<br />
+                  <label><input type="radio" name="time" />0-3 Hours </label
+                  ><br />
+                  <label><input type="radio" name="time" />4-6 Hours </label
+                  ><br />
+                  <label><input type="radio" name="time" />7-10 Hours </label
+                  ><br />
+                  <label><input type="radio" name="time" />11-14 Hours </label
+                  ><br />
+                  <label><input type="radio" name="time" />15+</label><br />
+                </fieldset>
               </div>
             </td>
           </tr>

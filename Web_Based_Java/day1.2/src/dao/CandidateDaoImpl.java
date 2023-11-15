@@ -21,9 +21,9 @@ public class CandidateDaoImpl implements CandidateDao {
 	}
 	
 	@Override
-	public List<Candidate> getAllCandidates() {
+	public List<Candidate> getAllCandidates() throws SQLException {
 		ArrayList<Candidate> candidateList = new ArrayList<>();
-		try(ResultSet rst = new ResultSet()){
+		try(ResultSet rst = pst1.executeQuery()){
 			
 		}
 		return candidateList;

@@ -1,25 +1,25 @@
 package pojos;
 
 public class Candidate {
-	private int CandidateId;
+	private int candidateId;
 	private String name;
 	private String party;
 	private int votes;
 
 	public Candidate(int candidateId, String name, String party, int votes) {
 		super();
-		CandidateId = candidateId;
+		this.candidateId = candidateId;
 		this.name = name;
 		this.party = party;
 		this.votes = votes;
 	}
 
-	public int getCandidateId() {
-		return CandidateId;
+	public int getcandidateId() {
+		return candidateId;
 	}
 
-	public void setCandidateId(int candidateId) {
-		CandidateId = candidateId;
+	public void setcandidateId(int candidateId) {
+		this.candidateId = candidateId;
 	}
 
 	public String getName() {
@@ -48,7 +48,7 @@ public class Candidate {
 
 	@Override
 	public String toString() {
-		return "Candidate [CandidateId=" + CandidateId + ", name=" + name + ", party=" + party + ", votes=" + votes
+		return "Candidate [candidateId=" + candidateId + ", name=" + name + ", party=" + party + ", votes=" + votes
 				+ "]";
 	}
 

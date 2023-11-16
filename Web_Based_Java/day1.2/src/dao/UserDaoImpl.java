@@ -42,6 +42,8 @@ public class UserDaoImpl implements UserDao {
 	public void cleanUp() throws SQLException {
 		if (pst1 != null)
 			pst1.close();
+		if(pst2 != null)
+			pst2.close();
 		closeConnection();
 		System.out.println("user dao cleaned up !");
 	}

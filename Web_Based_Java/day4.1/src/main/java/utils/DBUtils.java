@@ -10,7 +10,7 @@ public class DBUtils {
 		// optional : load JDBC driver class
 	//	Class.forName("com.mysql.cj.jdbc.Driver");
 		cn = DriverManager.getConnection(
-				"jdbc:mysql://localhost:3306/advjava?useSSL=false&allowPublicKeyRetrieval=true", "root", "root");
+				"jdbc:mysql://localhost:3306/dhundirajwebjava?useSSL=false&allowPublicKeyRetrieval=true", "root", "root");
 		return cn;
 	}
 	// add a method to close DB connection

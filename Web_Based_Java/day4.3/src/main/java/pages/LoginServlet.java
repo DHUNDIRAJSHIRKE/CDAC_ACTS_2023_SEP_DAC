@@ -21,7 +21,7 @@ import static utils.DBUtils.*;
 /**
  * Servlet implementation class LoginServlet
  */
-@WebServlet(urlPatterns = "/authenticate", loadOnStartup = 1)
+@WebServlet(urlPatterns = "/authenticate")
 public class LoginServlet extends HttpServlet {
 	private UserDaoImpl userDao;
 	private CandidateDaoImpl candidateDao;

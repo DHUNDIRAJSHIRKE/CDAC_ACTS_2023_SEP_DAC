@@ -18,7 +18,8 @@
 		<property name="hibernate.show_sql">true</property>
 		<property name="hibernate.format_sql">true</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
-		<!-- add mapping entry HBM -->
-		<mapping class="pojos.User" />
+		<!-- add mapping entry per entity -->	
+		<mapping class="pojos.Team"/>	
+		<mapping class="pojos.Player"/>
 	</session-factory>
 </hibernate-configuration>

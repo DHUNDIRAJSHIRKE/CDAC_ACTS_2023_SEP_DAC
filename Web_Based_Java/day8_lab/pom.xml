@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.acts</groupId>
-	<artifactId>test_hibernate</artifactId>
+	<artifactId>day8_lab</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>test_hibernate</name>
+	<name>day8_lab</name>
 	<description>Simple standalone Hibernate application</description>
 	<build>
 		<plugins>

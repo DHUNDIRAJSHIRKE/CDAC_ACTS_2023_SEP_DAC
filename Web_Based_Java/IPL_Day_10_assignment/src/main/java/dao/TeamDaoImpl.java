@@ -3,6 +3,7 @@ package dao;
 import static utils.HibernateUtils.getFactory;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.Session;
@@ -31,6 +32,11 @@ public class TeamDaoImpl implements TeamDao {
 	// TODO Auto-generated method stub
 	return msg;
 }
+
+	public List<Team> getSelectedDetails() {
+		List<Team> list = new ArrayList<>();
+		return list;
+	}
 
 	
 

@@ -1,11 +1,15 @@
 package pojos;
+import java.time.LocalDate;
+
 /*
  * id , first_name,last_name, dob,batting_avg,wickets_taken....
 +team_id 
  */
-import javax.persistence.*;
-import java.sql.Date;
-import java.time.LocalDate;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 @Entity
 @Table(name="players")
 public class Player extends BaseEntity {

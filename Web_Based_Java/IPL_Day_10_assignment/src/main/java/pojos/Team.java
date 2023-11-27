@@ -40,7 +40,6 @@ public class Team extends BaseEntity{
 	}
 	
 	
-	
 
 
 	
@@ -101,7 +100,7 @@ public class Team extends BaseEntity{
 
 	@Override
 	public String toString() {
-		return "Team [name=" + name + ", abbreviation=" + abbreviation + ", owner=" + owner + ", maxAge=" + maxAge
+		return "Team [ ID : "+getId()+"name=" + name + ", abbreviation=" + abbreviation + ", owner=" + owner + ", maxAge=" + maxAge
 				+ ", minBattingAvg=" + minBattingAvg + ", minWicketsTaken=" + minWicketsTaken + ", players=" + players
 				+ "]";
 	}

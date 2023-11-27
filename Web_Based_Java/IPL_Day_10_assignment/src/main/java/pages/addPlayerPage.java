@@ -22,7 +22,7 @@ import static utils.DBUtils.*;
 /**
  * Servlet implementation class addPlayerPage
  */
-@WebServlet("/addPlayerPage")
+@WebServlet("/l")
 public class addPlayerPage extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private PlayerDaoImpl playerDao;

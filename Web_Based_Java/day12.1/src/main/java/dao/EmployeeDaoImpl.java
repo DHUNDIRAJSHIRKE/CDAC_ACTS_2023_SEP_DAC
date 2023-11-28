@@ -77,12 +77,16 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		Session session = getFactory().getCurrentSession();
 		// 2. Begin a tx
 		Transaction tx = session.beginTransaction();
+		String jpql = "select e from Employee e join fetch e.projects where e.id=:id ";
+		
 		try {
 			// get emp details
-			emp = session.get(Employee.class, empId);// select
+			emp = session.createQuery(jpql, Employee.class).setParameter("id", empId).getSingleResult();
+//			emp = session.get(Employee.class, empId);
+			// select
 			// in case of valid id , emp : PERSISTENT(part of L1 cache , part of DB)
 			// invalid id : emp : null
-		
+		session.persist(emp);
 			tx.commit();
 		} catch (RuntimeException e) {
 			if (tx != null)

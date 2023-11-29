@@ -1,5 +1,6 @@
 package dao;
 
+import pojos.Address;
 import pojos.Department;
 import pojos.Employee;
 import pojos.EmploymentType;
@@ -77,6 +78,8 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		Session session = getFactory().getCurrentSession();
 		// 2. Begin a tx
 		Transaction tx = session.beginTransaction();
+//		Address address = null;
+//		String jpql = "select a from address a where a.id=:id";
 		String jpql = "select e from Employee e join fetch e.projects where e.id=:id ";
 		
 		try {

@@ -1,0 +1,15 @@
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\bin\Debug\net7.0\Class_Object_Testing.exe
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\bin\Debug\net7.0\Class_Object_Testing.deps.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\bin\Debug\net7.0\Class_Object_Testing.runtimeconfig.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\bin\Debug\net7.0\Class_Object_Testing.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\bin\Debug\net7.0\Class_Object_Testing.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\obj\Debug\net7.0\Class_Object_Testing.csproj.AssemblyReference.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\obj\Debug\net7.0\Class_Object_Testing.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\obj\Debug\net7.0\Class_Object_Testing.AssemblyInfoInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\obj\Debug\net7.0\Class_Object_Testing.AssemblyInfo.cs
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\obj\Debug\net7.0\Class_Object_Testing.csproj.CoreCompileInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\obj\Debug\net7.0\Class_Object_Testing.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\obj\Debug\net7.0\refint\Class_Object_Testing.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\obj\Debug\net7.0\Class_Object_Testing.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\obj\Debug\net7.0\Class_Object_Testing.genruntimeconfig.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp1\Class_Object_Testing\obj\Debug\net7.0\ref\Class_Object_Testing.dll

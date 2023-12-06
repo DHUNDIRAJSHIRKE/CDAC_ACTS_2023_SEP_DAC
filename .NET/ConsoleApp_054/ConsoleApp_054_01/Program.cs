@@ -1,11 +1,13 @@
-﻿namespace N1 
+﻿namespace N1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!!");
+            System.Console.WriteLine("Hello World!!");
             N2.Program.F1();
+            int num = 0;
+            System.Console.WriteLine();
         }
     }
     namespace N2
@@ -14,7 +16,7 @@
         {
             public static void F1()
             {
-                Console.WriteLine("Hello from namespace N2's Program class!!");
+                System.Console.WriteLine("Hello from namespace N2's Program class!!");
             }
         }
     }

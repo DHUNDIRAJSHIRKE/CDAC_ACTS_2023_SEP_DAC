@@ -1,0 +1,15 @@
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\obj\Debug\net7.0\ConsoleApp_054_01.csproj.AssemblyReference.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\obj\Debug\net7.0\ConsoleApp_054_01.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\obj\Debug\net7.0\ConsoleApp_054_01.AssemblyInfoInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\obj\Debug\net7.0\ConsoleApp_054_01.AssemblyInfo.cs
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\obj\Debug\net7.0\ConsoleApp_054_01.csproj.CoreCompileInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\bin\Debug\net7.0\ConsoleApp_054_01.exe
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\bin\Debug\net7.0\ConsoleApp_054_01.deps.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\bin\Debug\net7.0\ConsoleApp_054_01.runtimeconfig.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\bin\Debug\net7.0\ConsoleApp_054_01.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\bin\Debug\net7.0\ConsoleApp_054_01.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\obj\Debug\net7.0\ConsoleApp_054_01.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\obj\Debug\net7.0\refint\ConsoleApp_054_01.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\obj\Debug\net7.0\ConsoleApp_054_01.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\obj\Debug\net7.0\ConsoleApp_054_01.genruntimeconfig.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\ConsoleApp_054\ConsoleApp_054_01\obj\Debug\net7.0\ref\ConsoleApp_054_01.dll

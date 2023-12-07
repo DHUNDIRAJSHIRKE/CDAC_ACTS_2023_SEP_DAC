@@ -1,0 +1,15 @@
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\bin\Debug\net7.0\StaticMembers.exe
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\bin\Debug\net7.0\StaticMembers.deps.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\bin\Debug\net7.0\StaticMembers.runtimeconfig.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\bin\Debug\net7.0\StaticMembers.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\bin\Debug\net7.0\StaticMembers.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\obj\Debug\net7.0\StaticMembers.csproj.AssemblyReference.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\obj\Debug\net7.0\StaticMembers.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\obj\Debug\net7.0\StaticMembers.AssemblyInfoInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\obj\Debug\net7.0\StaticMembers.AssemblyInfo.cs
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\obj\Debug\net7.0\StaticMembers.csproj.CoreCompileInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\obj\Debug\net7.0\StaticMembers.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\obj\Debug\net7.0\refint\StaticMembers.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\obj\Debug\net7.0\StaticMembers.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\obj\Debug\net7.0\StaticMembers.genruntimeconfig.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\StaticMembers\obj\Debug\net7.0\ref\StaticMembers.dll

@@ -2,7 +2,9 @@
 {
     internal class Program
     {
+//Take length of array input from user, take each element from user, then display array,convert the array to list, then display the list        
         static void Main1(string[] args)
+ 
         {
             Console.WriteLine("Enter size of Array: ");
             int l = Convert.ToInt32(Console.ReadLine());
@@ -29,7 +31,9 @@
                 Console.Write(i+" ");
             }
         }
+//Take length of list input from user, take each element from user, then display list,convert the list to array, then display the array
         static void Main()
+
         {
             Console.WriteLine("Enter size of Array: ");
             int l = Convert.ToInt32(Console.ReadLine());

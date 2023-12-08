@@ -1,0 +1,12 @@
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\bin\Debug\net7.0\Mathmatics.deps.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\bin\Debug\net7.0\Mathmatics.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\bin\Debug\net7.0\Mathmatics.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\obj\Debug\net7.0\Mathmatics.csproj.AssemblyReference.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\obj\Debug\net7.0\Mathmatics.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\obj\Debug\net7.0\Mathmatics.AssemblyInfoInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\obj\Debug\net7.0\Mathmatics.AssemblyInfo.cs
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\obj\Debug\net7.0\Mathmatics.csproj.CoreCompileInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\obj\Debug\net7.0\Mathmatics.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\obj\Debug\net7.0\refint\Mathmatics.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\obj\Debug\net7.0\Mathmatics.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Assignment_1_054\Mathmatics\obj\Debug\net7.0\ref\Mathmatics.dll

@@ -1,0 +1,15 @@
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\bin\Debug\net7.0\ConstrNObjectInit.exe
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\bin\Debug\net7.0\ConstrNObjectInit.deps.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\bin\Debug\net7.0\ConstrNObjectInit.runtimeconfig.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\bin\Debug\net7.0\ConstrNObjectInit.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\bin\Debug\net7.0\ConstrNObjectInit.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\obj\Debug\net7.0\ConstrNObjectInit.csproj.AssemblyReference.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\obj\Debug\net7.0\ConstrNObjectInit.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\obj\Debug\net7.0\ConstrNObjectInit.AssemblyInfoInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\obj\Debug\net7.0\ConstrNObjectInit.AssemblyInfo.cs
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\obj\Debug\net7.0\ConstrNObjectInit.csproj.CoreCompileInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\obj\Debug\net7.0\ConstrNObjectInit.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\obj\Debug\net7.0\refint\ConstrNObjectInit.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\obj\Debug\net7.0\ConstrNObjectInit.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\obj\Debug\net7.0\ConstrNObjectInit.genruntimeconfig.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2.2\ConstrNObjectInit\obj\Debug\net7.0\ref\ConstrNObjectInit.dll

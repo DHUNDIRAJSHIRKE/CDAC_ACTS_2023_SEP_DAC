@@ -1,0 +1,12 @@
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\obj\Debug\net7.0\lab2.csproj.AssemblyReference.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\obj\Debug\net7.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\obj\Debug\net7.0\lab2.AssemblyInfoInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\obj\Debug\net7.0\lab2.AssemblyInfo.cs
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\obj\Debug\net7.0\lab2.csproj.CoreCompileInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\bin\Debug\net7.0\lab2.deps.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\bin\Debug\net7.0\lab2.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\bin\Debug\net7.0\lab2.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\obj\Debug\net7.0\lab2.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\obj\Debug\net7.0\refint\lab2.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\obj\Debug\net7.0\lab2.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\day2\lab2\obj\Debug\net7.0\ref\lab2.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Assignment_1_054/1.0.0": {
+        "dependencies": {
+          "Mathmatics": "1.0.0"
+        },
+        "runtime": {
+          "Assignment_1_054.dll": {}
+        }
+      },
+      "Mathmatics/1.0.0": {
+        "runtime": {
+          "Mathmatics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assignment_1_054/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mathmatics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

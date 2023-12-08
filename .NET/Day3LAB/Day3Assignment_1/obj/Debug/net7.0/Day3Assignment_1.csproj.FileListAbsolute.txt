@@ -1,0 +1,15 @@
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\bin\Debug\net7.0\Day3Assignment_1.exe
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\bin\Debug\net7.0\Day3Assignment_1.deps.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\bin\Debug\net7.0\Day3Assignment_1.runtimeconfig.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\bin\Debug\net7.0\Day3Assignment_1.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\bin\Debug\net7.0\Day3Assignment_1.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\obj\Debug\net7.0\Day3Assignment_1.csproj.AssemblyReference.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\obj\Debug\net7.0\Day3Assignment_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\obj\Debug\net7.0\Day3Assignment_1.AssemblyInfoInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\obj\Debug\net7.0\Day3Assignment_1.AssemblyInfo.cs
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\obj\Debug\net7.0\Day3Assignment_1.csproj.CoreCompileInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\obj\Debug\net7.0\Day3Assignment_1.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\obj\Debug\net7.0\refint\Day3Assignment_1.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\obj\Debug\net7.0\Day3Assignment_1.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\obj\Debug\net7.0\Day3Assignment_1.genruntimeconfig.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day3LAB\Day3Assignment_1\obj\Debug\net7.0\ref\Day3Assignment_1.dll

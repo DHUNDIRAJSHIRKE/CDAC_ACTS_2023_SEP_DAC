@@ -4,49 +4,71 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ENter no of EMp");
-            int n = Convert.ToInt32(Console.ReadLine());
-            Employee[] employees = new Employee[n];
-            for(int i = 0; i < employees.Length; i++) 
+            Console.WriteLine("ENter NO of employees: ");
+            int l = Convert.ToInt32(Console.ReadLine());
+            Employee[] emps = new Employee[l];
+            string? name = "";
+            double salary = 0.0;
+
+            for (int i = 0; i < l; i++)
             {
-                Console.WriteLine("Enter Name : ");
-                string Name = Console.ReadLine();
-
-                Console.WriteLine("Enter Salary : ");
-                double Salary = Convert.ToDouble(Console.ReadLine());
-
-                Employee newEmp = new Employee(Salary, Name);
-                employees[i] = newEmp;
-
+                Console.WriteLine("Enter details of employee " + (i + 1));
+                Console.WriteLine("Name: ");
+                name = Console.ReadLine();
+                Console.WriteLine("Salary: ");
+                salary = Convert.ToDouble(Console.ReadLine());
+                Employee newEmp = new Employee(name, salary);
+                emps[i] = newEmp;
             }
-            for(int i = 0;i < employees.Length;i++)
+            Console.WriteLine();
+            for (int i = 0; i < emps.Length; i++)
             {
-                Console.WriteLine(employees[i]);
+                Console.WriteLine(emps[i]);
             }
-
-            /*double max = 0;
-            for(int i = 0;i<employees.Length ; i++) 
+            double highest = 0;
+            int highId = -1;
+            foreach (Employee e in emps)
             {
-
-            }*/
+                if (e.salary > highest)
+                {
+                    highId = e.id;
+                    highest = e.salary;
+                }
+            }
+            bool exit = false;
+            while (!exit)
+            {
+                Console.WriteLine("Employee with highest Salary : " + emps[highId]);
+                Console.WriteLine("Enter a id : ");
+                int id = -1;
+                id = Convert.ToInt32(Console.ReadLine());
+                if (id >= 0 && id < emps.Length)
+                {
+                    Console.WriteLine(emps[id]);
+                }
+                else
+                {
+                    exit = true;
+                }
+            }
         }
     }
     public class Employee
     {
-        private static int idGen = 100;
-        public int EmpNo;
-        public double Salary;
-        public string Name;
-        public Employee(double Salary, string Name)
+        private static int Idcount = 0;
+
+        public int id;
+        public string name;
+        public double salary;
+        public Employee(string name, double salary)
         {
-            EmpNo = ++idGen;
-            this.Name = Name;
-            this.Salary = Salary;
+            id = Idcount++;
+            this.name = name;
+            this.salary = salary;
         }
         public override string ToString()
         {
-            return $"EmpNO ; {EmpNo} Name : {Name} Salary : {Salary}";
+            return "Employee [ ID : " + id + " Name : " + name + " Salary: " + salary + " ]";
         }
-
     }
 }

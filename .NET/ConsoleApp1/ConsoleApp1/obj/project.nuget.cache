@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7Rm7dABgpXY3WGA/0X+4pc3CF3QN00RbmS7RUN+RtI2TzrlCg9SYgvihT74e8mHMCo7KFzN2igc76zlIKu/F0g==",
+  "dgSpecHash": "T8o2rsik3tIRWC6R3GMBDsr8864pN/6gewSNUz9o7ylWSPQ/vdXuWEphvWOQj7qNDmgxDMku7uhlftgla1P+oA==",
   "success": true,
-  "projectFilePath": "D:\\CDAC_ACTS_2023_SEP_DAC\\.NET\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\HP\\Documents\\GitHub\\CDAC_ACTS_2023_SEP_DAC\\.NET\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

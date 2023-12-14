@@ -1,0 +1,15 @@
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\bin\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.exe
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\bin\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.deps.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\bin\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.runtimeconfig.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\bin\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\bin\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\obj\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.csproj.AssemblyReference.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\obj\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\obj\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.AssemblyInfoInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\obj\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.AssemblyInfo.cs
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\obj\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.csproj.CoreCompileInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\obj\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\obj\Debug\net7.0\refint\Day_9_Lab_Assignment_persist_Object.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\obj\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\obj\Debug\net7.0\Day_9_Lab_Assignment_persist_Object.genruntimeconfig.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Day_9_Lab_Assignment_persist_Object\obj\Debug\net7.0\ref\Day_9_Lab_Assignment_persist_Object.dll

@@ -1,0 +1,15 @@
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\bin\Debug\net7.0\Json_Ser_deser.exe
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\bin\Debug\net7.0\Json_Ser_deser.deps.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\bin\Debug\net7.0\Json_Ser_deser.runtimeconfig.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\bin\Debug\net7.0\Json_Ser_deser.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\bin\Debug\net7.0\Json_Ser_deser.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\obj\Debug\net7.0\Json_Ser_deser.csproj.AssemblyReference.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\obj\Debug\net7.0\Json_Ser_deser.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\obj\Debug\net7.0\Json_Ser_deser.AssemblyInfoInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\obj\Debug\net7.0\Json_Ser_deser.AssemblyInfo.cs
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\obj\Debug\net7.0\Json_Ser_deser.csproj.CoreCompileInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\obj\Debug\net7.0\Json_Ser_deser.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\obj\Debug\net7.0\refint\Json_Ser_deser.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\obj\Debug\net7.0\Json_Ser_deser.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\obj\Debug\net7.0\Json_Ser_deser.genruntimeconfig.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\Json_Ser_deser\obj\Debug\net7.0\ref\Json_Ser_deser.dll

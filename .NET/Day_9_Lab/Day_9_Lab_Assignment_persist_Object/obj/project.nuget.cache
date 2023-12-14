@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mD4VwLuGsa96COtM5w2YEfKwRms0yZVp3I1xC9YbJQdU3jbqWv3Grt3VftpoSkqwtDxPb893yeb6cbGC6f7wog==",
+  "success": true,
+  "projectFilePath": "D:\\CDAC_ACTS_2023_SEP_DAC\\.NET\\Day_9_Lab\\Day_9_Lab_Assignment_persist_Object\\Day_9_Lab_Assignment_persist_Object.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dac.STUDENTSDC\\.nuget\\packages\\soapformatter\\1.1.9\\soapformatter.1.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}

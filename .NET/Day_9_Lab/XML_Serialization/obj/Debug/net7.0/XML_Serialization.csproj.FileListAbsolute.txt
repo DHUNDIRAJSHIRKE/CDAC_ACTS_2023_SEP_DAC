@@ -1,0 +1,17 @@
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\bin\Debug\net7.0\XML_Serialization.exe
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\bin\Debug\net7.0\XML_Serialization.deps.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\bin\Debug\net7.0\XML_Serialization.runtimeconfig.json
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\bin\Debug\net7.0\XML_Serialization.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\bin\Debug\net7.0\XML_Serialization.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\bin\Debug\net7.0\SoapFormatter.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\obj\Debug\net7.0\XML_Serialization.csproj.AssemblyReference.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\obj\Debug\net7.0\XML_Serialization.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\obj\Debug\net7.0\XML_Serialization.AssemblyInfoInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\obj\Debug\net7.0\XML_Serialization.AssemblyInfo.cs
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\obj\Debug\net7.0\XML_Serialization.csproj.CoreCompileInputs.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\obj\Debug\net7.0\XML_Serialization.csproj.CopyComplete
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\obj\Debug\net7.0\XML_Serialization.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\obj\Debug\net7.0\refint\XML_Serialization.dll
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\obj\Debug\net7.0\XML_Serialization.pdb
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\obj\Debug\net7.0\XML_Serialization.genruntimeconfig.cache
+D:\CDAC_ACTS_2023_SEP_DAC\.NET\Day_9_Lab\XML_Serialization\obj\Debug\net7.0\ref\XML_Serialization.dll

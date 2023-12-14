@@ -14,16 +14,19 @@
     public static class StringExt {
         public static int CountVowel(this string ob)
         {
-            int count = 0;
-            char[] chars = ob.ToCharArray();
-            foreach (var item in chars)
+            //int count = 0;
+            char[] chars = ob.ToLower().ToCharArray();
+            var vowels = chars.Where(c => c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
+            return vowels.Count();
+                
+            /*foreach (var item in chars)
             {
                 if (item == 'a' || item == 'e' || item == 'i' || item == 'o' || item == 'u' || item == 'A' || item == 'E' || item == 'I' || item == 'O' || item == 'U')
                 {
                     count++;
                 }
             }
-            return count;
+            return count;*/
         }
     }
 }

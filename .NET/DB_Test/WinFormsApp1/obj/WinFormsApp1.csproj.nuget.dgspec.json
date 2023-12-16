@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\GitHub\\CDAC_ACTS_2023_SEP_DAC\\.NET\\DB_Test\\DB_Test\\DB_Test.csproj": {}
+    "C:\\Users\\HP\\Documents\\GitHub\\CDAC_ACTS_2023_SEP_DAC\\.NET\\DB_Test\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\GitHub\\CDAC_ACTS_2023_SEP_DAC\\.NET\\DB_Test\\DB_Test\\DB_Test.csproj": {
+    "C:\\Users\\HP\\Documents\\GitHub\\CDAC_ACTS_2023_SEP_DAC\\.NET\\DB_Test\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\CDAC_ACTS_2023_SEP_DAC\\.NET\\DB_Test\\DB_Test\\DB_Test.csproj",
-        "projectName": "DB_Test",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\CDAC_ACTS_2023_SEP_DAC\\.NET\\DB_Test\\DB_Test\\DB_Test.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\CDAC_ACTS_2023_SEP_DAC\\.NET\\DB_Test\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectName": "WinFormsApp1",
+        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\CDAC_ACTS_2023_SEP_DAC\\.NET\\DB_Test\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\CDAC_ACTS_2023_SEP_DAC\\.NET\\DB_Test\\DB_Test\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\CDAC_ACTS_2023_SEP_DAC\\.NET\\DB_Test\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net7.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
             "projectReferences": {}
           }
         },
@@ -37,14 +37,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.1.2, )"
-            }
-          },
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -59,6 +53,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"

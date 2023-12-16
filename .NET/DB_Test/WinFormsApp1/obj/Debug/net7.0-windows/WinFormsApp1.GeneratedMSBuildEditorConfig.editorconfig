@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WinFormsApp1
-build_property.ProjectDir = D:\CDAC_ACTS_2023_SEP_DAC\.NET\DB_Test\WinFormsApp1\
+build_property.ProjectDir = C:\Users\HP\Documents\GitHub\CDAC_ACTS_2023_SEP_DAC\.NET\DB_Test\WinFormsApp1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

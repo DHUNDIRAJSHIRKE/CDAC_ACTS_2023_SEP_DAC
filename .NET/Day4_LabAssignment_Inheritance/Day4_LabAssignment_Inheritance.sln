@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraySortingExample", "..\.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndicesAndRanges", "..\..\..\Java_0054\.NET\Daily_Material\Day4Code\IndicesAndRanges\IndicesAndRanges.csproj", "{632F118D-C569-4E55-9F0F-23905B1DA452}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleAndValueTupleExample", "..\..\..\Java_0054\.NET\Daily_Material\Day4Code\TupleAndValueTupleExample\TupleAndValueTupleExample.csproj", "{E9A32323-2E01-48EA-9B6A-7BE6F2460F0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{632F118D-C569-4E55-9F0F-23905B1DA452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{632F118D-C569-4E55-9F0F-23905B1DA452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{632F118D-C569-4E55-9F0F-23905B1DA452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A32323-2E01-48EA-9B6A-7BE6F2460F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A32323-2E01-48EA-9B6A-7BE6F2460F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A32323-2E01-48EA-9B6A-7BE6F2460F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A32323-2E01-48EA-9B6A-7BE6F2460F0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

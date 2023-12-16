@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Json_Ser_deser/1.0.0": {
+        "runtime": {
+          "Json_Ser_deser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Json_Ser_deser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

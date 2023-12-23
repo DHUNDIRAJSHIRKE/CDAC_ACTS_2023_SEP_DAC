@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .myClass {
+        background-color: blue;
+        color: white;
+        font-size: 40px;
+      }
+      .myc {
+        background-color: white;
+        color: black;
+        font-size: 10px;
+      }
+    </style>
+    <script src="../scripts/jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("p").hover(
+          function () {
+            console.log("Hovering over p tag1");
+            $(this).addClass("myClass");
+            $(this).removeClass("myc");
+          },
+          function () {
+            console.log("Hovering over p tag2");
+            $(this).addClass("myc");
+            $(this).removeClass("myClass");
+          }
+        );
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(':input[type="text"]').focus(function () {
+          console.log("Hovering over p tagdfggfdg344");
+          $(this).css("background-color", "yellow");
+        });
+        $(':input[type="text"]').blur(function () {
+          console.log("Hovering over p 454dd");
+          $(this).css("background-color", "white");
+        });
+      });
+      $("p").hover(
+        () => {
+          console.log("in hover");
+          $(this).css({ "background-color": "blue", color: "blue" });
+        },
+        () => {
+          $(this).css({ "background-color": "white", color: "black" });
+        }
+      );
+    </script>
+  </head>
+  <body>
+    <p>This is p</p>
+    <form>
+      Name: <input type="text" name="nm" id="nm" /><br /><br />
+      Mobile: <input type="text" name="mob" id="mob" /> <br /><br />Data :
+      <input type="text" name="data" id="data" />
+    </form>
+    <p class="myc">this is second p tag</p>
+    <p class="myc">this is third p tag</p>
+    <p class="myc">this is fourth p tag</p>
+  </body>
+</html>

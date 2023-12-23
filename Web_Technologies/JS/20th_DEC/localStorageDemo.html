@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function getCount() {
+        //to check whether sessionStorage API is supported or not.
+        if (typeof Storage !== undefined) {
+          if (sessionStorage.count !== undefined) {
+            //if this property is there or not
+            //sessionStorage.count = parseInt(sessionStorage.count) + 1;
+            sessionStorage.setItem(
+              "count",
+              parseInt(sessionStorage.getItem("count")) + 1
+            );
+          } else {
+            sessionStorage.setItem("count", 1);
+          }
+        } //jwt token can be stored in sessionStorage and also in sessionStorage
+        document.getElementById("myDiv").innerHTML =
+          "You clicked " + sessionStorage.count;
+      }
+
+      var emparr = [
+        { id: 1, name: "Rahul", mob: 23333 },
+        { id: 2, name: "Rajesh", mob: 344444 },
+        { id: 3, name: "Deepa", mob: 455555 },
+      ];
+      const clearForm = function () {
+        document.getElementById("id").value = "";
+        document.getElementById("nm").value = "";
+        document.getElementById("mob").value = "";
+        document.getElementById("id").focus();
+      };
+      const updateEmployee = () => {
+        var id = parseInt(document.getElementById("id").value);
+        var pos = emparr.findIndex((ob) => ob.id === id);
+        if (pos != 1) {
+          var id = parseInt(document.getElementById("id").value);
+          var name = document.getElementById("nm").value;
+          var mob = document.getElementById("mob").value;
+          var empob = { id, name, mob };
+          emparr.splice(pos, 1, empob);
+          displayTable();
+        } else {
+          alert("ID not Found!!");
+        }
+        var mob = document.getElementById("mob").value;
+      };
+      const deleteEmployee = () => {
+        var id = parseInt(document.getElementById("id").value);
+        var pos = emparr.findIndex((ob) => ob.id === id);
+
+        if (pos != 1) {
+          emparr.splice(pos, 1);
+          displayTable();
+        } else {
+          alert("ID not Found!!");
+        }
+        var mob = document.getElementById("mob").value;
+      };
+      const addEmployee = () => {
+        var id = parseInt(document.getElementById("id").value);
+        var pos = emparr.findIndex((ob) => ob.id === id);
+        if (pos != -1) {
+          alert("same ID already exists!!");
+        } else {
+          var name = document.getElementById("nm").value;
+          var mob = document.getElementById("mob").value;
+          var empob = { id, name, mob };
+          emparr.push(empob);
+          clearForm();
+          displayTable();
+        }
+      };
+      const displayTable = () => {
+        var str =
+          "<table border='2'><tr><th>Employee ID</th><th>Name</th><th>Mobile</th></tr>";
+        for (var e of emparr) {
+          str += `<tr><td>${e.id}</td><td>${e.name}</td><td>${e.mob}</td></tr>`;
+        }
+        str += "</table>";
+        document.getElementById("myDiv").innerHTML = str;
+      };
+      console.log("asdfasdf");
+      displayTable();
+    </script>
+  </head>
+  <body onload="displayTable()">
+    <button type="button" name="btn" id="btn" onclick="getCount()">
+      Click me
+    </button>
+
+    <br />
+    <br />
+    <div>
+      <div id="myDiv"></div>
+      <br />
+      <br />
+      <form>
+        Employee id : <input type="text" name="id" id="id" /><br />
+        Employee Name: <input type="text" name="nm" id="nm" /><br />
+        Employee Mobile: <input type="text" name="mob" id="mob" /><br />
+        <button type="button" name="btn" id="add" onclick="addEmployee()">
+          Add new Employee
+        </button>
+        <button type="button" name="btn" id="delete" onclick="deleteEmployee()">
+          Delete Employee
+        </button>
+        <button type="button" name="btn" id="update" onclick="updateEmployee()">
+          Update Employee
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

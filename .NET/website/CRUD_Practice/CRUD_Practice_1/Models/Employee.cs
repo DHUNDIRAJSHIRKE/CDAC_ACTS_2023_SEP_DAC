@@ -1,14 +1,36 @@
-﻿using System.Data;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Data;
 using Microsoft.Data.SqlClient;
 
 namespace CRUD_Practice_1.Models
 {
     public class Employee
     {
+        [Key]
+        [Display(Name="Employee Number")]
         public int EmpNo { get; set; }
-        public string Name { get; set; }
+        
+        [Required(ErrorMessage ="Please Enter Name")]
+        [StringLength(10,ErrorMessage ="The {0} value can't exceed {1} characters ")]
+        public string Name {
+            get
+            {
+                return Name;
+            }
+            set
+            {
+                if (Name.length() > 0)
+                {
+                    throw new ArgumentException("Name can't be null!!");
+                }
+            }
         public int DeptNo { get; set; }
+        [DataType(DataType.Text)]//these Datatypes are Based on the datatype in HTML, 
         public decimal Basic { get; set; }
+        [Required(ErrorMessage ="Please Enter Confirm Password")]
+        [Compare("Password",ErrorMessage ="Password didn't match with the Password!!")]
+        [DataType(DataType.Password)]
+        public string ConfirmPassword { get; set; } 
         public static List<Employee> GetAllEmployees()
         {
             List<Employee> list = new List<Employee>();

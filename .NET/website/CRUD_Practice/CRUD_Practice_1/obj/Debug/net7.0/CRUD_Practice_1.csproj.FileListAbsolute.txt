@@ -243,3 +243,6 @@ D:\CDAC_ACTS_2023_SEP_DAC\.NET\website\CRUD_Practice\CRUD_Practice_1\bin\Debug\n
 D:\CDAC_ACTS_2023_SEP_DAC\.NET\website\CRUD_Practice\CRUD_Practice_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\CDAC_ACTS_2023_SEP_DAC\.NET\website\CRUD_Practice\CRUD_Practice_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\CDAC_ACTS_2023_SEP_DAC\.NET\website\CRUD_Practice\CRUD_Practice_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Documents\GitHub\CDAC_ACTS_2023_SEP_DAC\.NET\website\CRUD_Practice\CRUD_Practice_1\obj\Debug\net7.0\CRUD_Practice_1.dll
+C:\Users\HP\Documents\GitHub\CDAC_ACTS_2023_SEP_DAC\.NET\website\CRUD_Practice\CRUD_Practice_1\obj\Debug\net7.0\refint\CRUD_Practice_1.dll
+C:\Users\HP\Documents\GitHub\CDAC_ACTS_2023_SEP_DAC\.NET\website\CRUD_Practice\CRUD_Practice_1\obj\Debug\net7.0\CRUD_Practice_1.pdb

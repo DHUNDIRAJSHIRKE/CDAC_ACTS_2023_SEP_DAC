@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function f1() {
+        console.log("in f1");
+      }
+      function f2() {
+        console.log("in f2");
+      }
+      function f3() {
+        var dt = new Date();
+        //console.log(dt);
+        document.getElementById("myDiv").innerHTML = dt;
+      }
+      console.log("before f1");
+      console.log("after f1");
+      var s1 = setInterval(f2, 2000);
+
+      setTimeout(f1, 200); //now f1 is Asynch function
+      setTimeout(f2, 500);
+      f3();
+      //setTimeout(f2, 2000);
+    </script>
+  </head>
+  <body>
+    <div id="myDiv"></div>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Book_ADO_2.props" />
+</Project>

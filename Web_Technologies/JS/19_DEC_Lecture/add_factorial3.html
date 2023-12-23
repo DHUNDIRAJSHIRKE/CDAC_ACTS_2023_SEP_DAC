@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <form>
+        <tr>
+          <td><label for="uname">User Name: </label></td>
+          <td>
+            <input
+              type="text"
+              name="uname"
+              id="uname"
+              placeholder="Enter User Name"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pass">Password: </label></td>
+          <td>
+            <input
+              type="password"
+              name="pass"
+              id="pass"
+              placeholder="Enter Password"
+              required
+              minlength="3"
+              maxlength="8"
+              pattern="^[A-Za-z]*"
+            />
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>

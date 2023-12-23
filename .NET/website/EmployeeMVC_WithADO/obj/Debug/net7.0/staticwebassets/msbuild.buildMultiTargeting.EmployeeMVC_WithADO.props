@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EmployeeMVC_WithADO.props" />
+</Project>

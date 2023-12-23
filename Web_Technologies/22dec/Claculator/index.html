@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="index.js"></script>
+  </head>
+  <body
+    style="
+      margin: auto;
+      padding: 5px;
+      border: 2px solid black;
+      height: 400px;
+      width: 525px;
+    "
+  >
+    <form action="">
+      <h1>Calculator</h1>
+      <div
+        style="
+          border: 2px solid black;
+
+          padding: 10px;
+
+          height: 200px;
+          width: 500px;
+        "
+      >
+        First Number:&nbsp;<input
+          type="number"
+          id="nm1"
+          name="nm1"
+          required
+        /><br /><br />
+        Second Number:&nbsp;<input
+          type="number"
+          id="nm2"
+          name="nm2"
+          required
+        /><br /><br />
+        Operations:&nbsp;<input
+          type="radio"
+          id="rd1"
+          name="rd"
+          value="Add"
+        />&nbsp;Addition &nbsp;<input
+          type="radio"
+          id="rd2"
+          name="rd"
+          value="Sub"
+        />&nbsp; Substraction &nbsp;<input
+          type="radio"
+          id="rd3"
+          name="rd"
+          value="Multi"
+        />&nbsp; Multiplcation &nbsp;<input
+          type="radio"
+          id="rd4"
+          name="rd"
+          value="Div"
+        />&nbsp;Division <br /><br />
+        <button id="btn1" name="btn1" type="button" onclick="Calculate()">
+          Calculate
+        </button>
+      </div>
+      <br />
+      Result: <input type="text" name="result" id="result" readonly /><br />
+      <br />
+    </form>
+  </body>
+</html>

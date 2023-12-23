@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../scripts/jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        var count = 2;
+        $("#btn").click(function () {
+          var element = $("div:first-child").clone();
+
+          $(element).attr("id", "div" + count);
+          count++;
+          $("body").append(element);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="div1">
+      <label> Name: </label>
+      <input type="text" name="name" id="nm1" />
+      <button type="button" name="btn" id="btn" oncl>Add New</button>
+    </div>
+  </body>
+</html>

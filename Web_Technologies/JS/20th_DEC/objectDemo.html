@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var a = 23;
+      var x = "Kishori";
+      //it is an object
+      var emp = { empid: 12, ename: "Rajan", dept: "gaming" };
+      console.log(emp.id, emp["empid"]); //objectName.propertyName OR objectName['propertyName']
+      emp.mobile = 9834573392;
+      alert(emp.empid + " " + emp.ename + " " + emp.dept + " " + emp.mobile);
+      emp1 = {
+        id: 12,
+        name: "Madhura",
+        dept: "UX",
+        display: function () {
+          console.log(
+            "Id : " + this.id + " Name; " + this.name + " Dept : " + this.dept
+          );
+        },
+      };
+      const Employee = function (id, nm, dept) {
+        this.id = id;
+        this.name = nm;
+        display = function () {
+          console.log(
+            "Id : " + this.id + " Name; " + this.name + " Dept : " + this.dept
+          );
+        };
+        this.dept = dept;
+      };
+      e1 = new Employee(3, "Vikram", "HR");
+      for (var p in e1) {
+        //p is storing name of the property , e1[p] value of property.
+        //property name is stored inside variable 'p'.
+        console.log(p + "---------->" + e1[p]);
+      }
+    </script>
+  </body>
+</html>

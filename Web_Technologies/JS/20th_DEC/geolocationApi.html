@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function findLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition, showError); //callback functions
+          //display position
+          //for live location like while travelling use geolocation.watchPosition(showPosition,showerror);
+        } else {
+          document.getElementById("myDiv").innerHTML =
+            "geolocation is not Supported by browser.";
+        }
+      }
+      function showPosition(position) {
+        document.getElementById("myDiv").innerHTML =
+          "Lattitude: " +
+          position.coords.latitude +
+          "Longitude: " +
+          position.coords.longitude;
+      }
+      function showError(error) {
+        console.log("Error ocurred", err);
+      }
+    </script>
+  </head>
+  <body>
+    <button type="button" id="btn" name="btn" onclick="findLocation()">
+      Get Location
+    </button>
+    <div id="myDiv"></div>
+  </body>
+</html>

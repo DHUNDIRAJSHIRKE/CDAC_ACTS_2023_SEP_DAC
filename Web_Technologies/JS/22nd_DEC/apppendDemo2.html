@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="../scripts/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script>
       $(document).ready(function () {
         var count = 2;
-        $("#btn").click(function () {
+        //delegate(selector, eventType , handler )
+        $("body").delegate('#btn',"click",function () {
           var element = $("div:first-child").clone();
-
           $(element).attr("id", "div" + count);
           count++;
           $("body").append(element);
-        });
-      });
+        })
+      })
     </script>
   </head>
   <body>

@@ -3,66 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      .myClass {
-        background-color: blue;
-        color: white;
-        display: black;
-      }
-      .sd {
-        display: block;
-      }
-      .myc {
-        display: none;
-      }
-    </style>
-    <script src="../../JS/scripts/jquery.js"></script>
+    <title>Append and Prepend Test</title>
+    
+    <!-- <script src="../scripts/jquery-3.7.1.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script>
       $(document).ready(function () {
+        var count =1;
+        var pcount =1;
         $("#append").click(function () {
-          $("div").append("<p class='app'>This append para</p>");
+          $("div").append("<p class='app'>This append para"+count+"</p>");
+          count++;
         });
         $("#prepend").click(function () {
-          $("div").append("<p class='pre'>This prepend para</p>");
+          $("div").prepend("<p class='pre'>This prepend para</p>");
+          pcount++;
         });
         $("#removeApp").click(function () {
           $("p").remove(".app");
+          count =1; 
           //$('p').remove(); this will delete all the p tags.
         });
         $("#removePre").click(function () {
           $("p").remove(".pre");
-        });
-      });
-    </script>
-    <script>
-      $(document).ready(function () {
-        $("#show").click(function () {
-          $("h1").addClass("myClass").removeClass("myc");
-        });
-        $("#hide").click(function () {
-          $("h1").removeClass("myClass").addClass("myc");
-        });
-        $("#toggle").click(function () {
-          $("h1").toggleClass("myClass");
+          pcount =1;
         });
       });
     </script>
   </head>
   <body>
-    <button type="button" name="btn" value="btn" id="append">Append</button>
-    <button type="button" name="btn" value="btn" id="prepend">Prepend</button>
-    <button type="button" name="btn" value="btn" id="removePre">
-      Romove Prepend
+    <p>Hello this is prepend</p>
+    <button type="button" name="btn"  id="append">Append</button>
+    <button type="button" name="btn"  id="prepend">Prepend</button>
+    <button type="button" name="btn"  id="removePre">
+      Remove Prepend
     </button>
     <button type="button" name="btn" value="btn" id="removeApp">
-      Romove Append
+      Remove Append
     </button>
     <div>
       <h1>This is h1</h1>
     </div>
 
-    <h1 class="myClass">This is Header</h1>
-    <h2 class="myc">THis is myc</h2>
   </body>
 </html>

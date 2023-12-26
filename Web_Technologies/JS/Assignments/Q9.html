@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function compound() {
+        var p = Number(document.getElementById("principal").value);
+        var n = Number(document.getElementById("time").value);
+        var r = Number(document.getElementById("rate").value);
+        var interest = p * (pow(1 + r / 100), n) - p;
+        var ans = "" + interest;
+        document.getElementById("output").innerHTML = ans;
+      }
+
+      function pow(n, r) {
+        var ans = 1;
+        for (var i = 1; i <= r; i++) {
+          ans = ans * n;
+        }
+        return ans;
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      Principal:
+      <input type="number" id="principal" name="principal" /><br /><br />
+      Time:
+      <input type="number" id="time" name="time" /><br /><br />
+      Rate :
+      <input type="number" id="rate" name="rate" /><br /><br />
+      <button type="button" id="calc" name="calc" onclick="compound()">
+        Calculate
+      </button>
+    </form>
+    <div class="output"></div>
+  </body>
+</html>

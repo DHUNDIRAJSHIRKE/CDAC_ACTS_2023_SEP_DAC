@@ -8,16 +8,13 @@
       .myClass {
         background-color: blue;
         color: white;
-        display: black;
-      }
-      .sd {
         display: block;
       }
       .myc {
         display: none;
       }
     </style>
-    <script src="../../JS/scripts/jquery.js"></script>
+    <script src="../scripts/jquery.js"></script>
     <script>
       $(document).ready(function () {
         $("#show").click(function () {
@@ -27,7 +24,7 @@
           $("h1").removeClass("myClass").addClass("myc");
         });
         $("#toggle").click(function () {
-          $("h1").toggleClass("myClass");
+          $("h1").toggleClass("myClass").toggleClass("myc");
         });
       });
     </script>
@@ -37,6 +34,5 @@
     <button type="button" name="btn" value="btn" id="hide">Hide</button>
     <button type="button" name="btn" value="btn" id="toggle">Toggle</button>
     <h1 class="myClass">This is Header</h1>
-    <h2 class="myc">THis is myc</h2>
   </body>
 </html>

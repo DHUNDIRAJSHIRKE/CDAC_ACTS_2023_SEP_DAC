@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: cyan;
+            width: 200px;
+            height: 200px;
+            border: 2px solid red;
+            border-radius: 5px;
+            margin: 5px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#up').click(function(){
+                $('#div2').slideUp(1000,function(){
+                    $('#div1').html("Slide up comlete")
+                })
+                $('#div3').slideDown(1000,function(){
+                    $('#div1').html("Hide Complete")
+                })
+            })
+            $('#down').click(function(){
+                $('#div2').slideUp(1000,function(){
+                    $('#div1').html("Hide Complete")
+                })
+                $('#div3').slideUp(1000,function(){
+                    $('#div3').html("Hide Complete")
+                })
+            })
+            $('#toggle').click(function(){
+                $('#div2').slideToggle(1000,function(){
+                    $('#div1').html("Show Complete")
+                })
+                $('#div3').slideToggle(1000,function(){
+                    $('#div1').html("Hide Complete")
+                })
+            })
+            
+        })
+    </script>
+</head>
+<body>
+    <div id="div1"></div>
+    <button id="up">Slide Up</button>
+    <button id="down">Slide Down</button>
+    <button id="toggle">Slide Toggle</button>
+    <div id="div2">
+        <img src = "../img/flowers.jpg" width="150" height="150" >
+    </div>
+    <div id="div3"></div>
+    
+</body>
+</html>

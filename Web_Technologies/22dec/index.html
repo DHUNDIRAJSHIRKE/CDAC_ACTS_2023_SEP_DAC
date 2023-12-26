@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script src="./index.js"></script> -->
+
+    <script></script>
+  </head>
+  <body>
+    <div>
+      <h2 id="str">hello</h2>
+      <select name="dlist" id="dlist">
+        <option value="First">First</option>
+        <option value="Second">Second</option>
+        <option value="Third" selected="selected">Third</option>
+        <option value="Fourth">Fourth</option>
+        <option value="Fifth">Fifth</option>
+      </select>
+    </div>
+  </body>
+  <script>
+    function text() {
+      var e = document.getElementById("dlist");
+    }
+    text();
+    //   var str = document.getElementById("str").value;
+
+    var value = e.value;
+    // console.log(
+    //   e.forEach((res) => {
+    //     res.options;
+    //     console.log(res.options);
+    //   })
+    // );
+    var text = e.options[e.selectedIndex].text;
+    console.log(text);
+    // var op = document.getElementById("dlist");
+    // //   const dr = op.value;
+    // console.log(op);
+    // var value = op.options[op.selectedIndex].value;
+    // console.log(value);
+    // var text = op.options[op.selectedIndex].text;
+    // console.log(text);
+  </script>
+</html>

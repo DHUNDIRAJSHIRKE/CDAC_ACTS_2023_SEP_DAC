@@ -6,23 +6,28 @@
     <title>Document</title>
     <script>
       function calcDigSum() {
-        var num = document.getElementById("num");
+        var n =document.getElementById("num").value;
         var str = "Enter 5 digit number!!";
-        if (5 != num.length) {
-          document.getElementById("SumOutput").innerHTML = str;
-        } else {
-          let char = [5];
-
+        if (5 === n.length) {
+          num = parseInt(n);
           var sum = 0;
           var tem = 0;
-          while (num >= 1) {
+          while (num >0) {
+            console.log("In the while loop");
             tem = num % 10;
             sum = sum + tem;
             num = num / 10;
           }
           sum = sum - (sum % 1);
-          var ans = "" + sum;
-          document.getElementById("SumOutput").innerHTML = ans;
+          //var ans = "" + sum;
+          document.getElementById("SumOutput").innerHTML = sum;
+
+
+          
+        } else {
+          
+
+          document.getElementById("SumOutput").innerHTML = str;
         }
       }
     </script>

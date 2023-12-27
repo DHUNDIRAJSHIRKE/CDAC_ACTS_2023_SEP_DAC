@@ -6,19 +6,26 @@
     <title>Document</title>
     <script>
       function compound() {
-        var p = Number(document.getElementById("principal").value);
-        var n = Number(document.getElementById("time").value);
-        var r = Number(document.getElementById("rate").value);
-        var interest = p * (pow(1 + r / 100), n) - p;
-        var ans = "" + interest;
-        document.getElementById("output").innerHTML = ans;
+        var p = parseInt(document.getElementById("principal").value);
+        var n = parseInt(document.getElementById("time").value);
+        var r = parseInt(document.getElementById("rate").value);
+        console.log("p: "+p+" N :"+n+" R : "+r);
+        var interest =0;
+        interest = p * (pow(1 + r / 100,n)) - p;
+        console.log("interest : "+interest);
+        //var ans = "" + interest;
+        interest = interest.toFixed(2);
+        document.getElementById("output").innerHTML = interest;
       }
 
       function pow(n, r) {
+        console.log("Inside pow(n,r)");
+        console.log("N "+n+" R : "+r);
         var ans = 1;
         for (var i = 1; i <= r; i++) {
           ans = ans * n;
         }
+        console.log("ANs : "+ans);
         return ans;
       }
     </script>
@@ -35,6 +42,6 @@
         Calculate
       </button>
     </form>
-    <div class="output"></div>
+    <div id="output"></div>
   </body>
 </html>

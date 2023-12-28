@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Handler</title>
+    <script src="../jQuery/jQuery.js"></script>
+    <script>
+      $(document).ready(function () {
+        //id selector : $("#id")
+        $("#submitBtn").click(function () {
+          //getting the value which
+          var selectedRadio = $('input[name="String"]:checked').val();
+          switch (selectedRadio) {
+            case "search":
+              var first = $("#first").val();
+              var second = $("#second").val();
+              var index = first.search(second);
+              if (index != -1)
+                $("#result").text(
+                  `First occurence of ${second} in ${first} at ${index}`
+                );
+              else
+                $("#result").text(
+                  `First occurence of ${second} in ${first} Not found`
+                );
+              break;
+            case "upper":
+              var str = $("#first").val();
+              $("#result").text(str.toUpperCase());
+              break;
+            case "lower":
+              var str = $("#first").val();
+              $("#result").text(str.toLowerCase());
+              break;
+            case "trim-space":
+              var str = $("#first").val();
+              var res = str.split(" ").join("");
+              $("#result").text(res);
+              break;
+            case "concate":
+              var first = $("#first").val();
+              var second = $("#second").val();
+              $("#result").text(first.concat(second));
+              break;
+            case "replace":
+              var first = $("#first").val();
+              var second = $("#second").val();
+              var third = $("#third").val();
+
+              $("#result").text(first.replace(second, third));
+
+              break;
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="parent">
+      <div id="child1">
+        <label for="">Enter String : </label>
+        <input type="text" id="first" />
+      </div>
+      <div id="child2">
+        <label for="">Enter Sub String : </label>
+        <input type="text" id="second" />
+      </div>
+      <div id="child3">
+        <label for="">Replace with String : </label>
+        <input type="text" id="third" />
+      </div>
+      <div id="child4">
+        <input type="radio" name="String" value="search" />
+        <label for="search">Search substring in main string</label>
+
+        <input type="radio" name="String" value="upper" />
+        <label for="upper">To Upper Case</label>
+
+        <input type="radio" name="String" value="lower" />
+        <label for="lower">To Lower Case</label>
+
+        <input type="radio" name="String" value="trim-space" />
+        <label for="trim-space">Trim Spaces</label>
+
+        <input type="radio" name="String" value="concate" />
+        <label for="concate">Concatenate</label>
+
+        <input type="radio" name="String" value="replace" />
+        <label for="replace">replace</label>
+      </div>
+      <div id="child5">
+        <button type="submit" id="submitBtn" onclick="submit()">
+          Submit Query
+        </button>
+      </div>
+      <div id="result"></div>
+    </div>
+  </body>
+</html>

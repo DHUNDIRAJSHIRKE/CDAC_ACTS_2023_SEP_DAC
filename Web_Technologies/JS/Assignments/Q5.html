@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Q.5 Table of N</title>
+    <script src="../scripts/jquery-3.7.1.js"></script>
     <script>
       function generateTable() {
         var str = "";
-        var n = Number(document.getElementById("num").value);
+        //var n = Number(document.getElementById("num").value);
+        var n = $("#num").val();
+        console.log(`Number entered ${n}`);
+        // var n = Number($("#num").val);
         for (var i = 1; i <= 10; i++) {
-          str = str + "<br>" + "<h5>" + i * n + "</h5>";
+          str +=    "<h5>" + i * n + "</h5>";
         }
         document.getElementById("outputDiv").innerHTML = str;
       }

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--Create a web page that displays the current date in the format specified as in example below. Also as per
+current time, suitable greeting should be printed.-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendar</title>
+</head>
+
+<body>
+  <script>
+    var date = new Date();
+    var day;
+    switch (date.getDay()) {
+      case 0:
+        day = "Sunday";
+        break;
+      case 1:
+        day = "Monday";
+        break;
+      case 2:
+        day = "Tuesday";
+        break;
+      case 3:
+        day = "Wednesday";
+        break;
+      case 4:
+        day = "Thursday";
+        break;
+      case 5:
+        day = "Friday";
+        break;
+      case 6:
+        day = "Saturday";
+        break;
+    }
+
+    var month;
+    switch (date.getMonth()) {
+      case 0:
+        month = "January";
+        break;
+      case 1:
+        month = "Feburary";
+        break;
+      case 2:
+        month = "March";
+        break;
+      case 3:
+        month = "April";
+        break;
+      case 4:
+        month = "May";
+        break;
+      case 5:
+        month = "June";
+        break;
+      case 6:
+        month = "July";
+        break;
+      case 7:
+        month = "August";
+        break;
+      case 8:
+        month = "September";
+        break;
+      case 9:
+        month = "October";
+        break;
+      case 10:
+        month = "November";
+        break;
+      case 11:
+        month = "December";
+        break;
+    }
+    var greet;
+    var hour = date.getHours();
+    switch (true) {
+      case hour >= 0 && hour <= 4:
+      case hour >= 21 && hour <= 24:
+        greet = "Good Night";
+        break;
+      case hour >= 5 && hour <= 11:
+        greet = "Good Morning";
+        break;
+      case hour >= 12 && hour <= 16:
+        greet = "Good Afternoon";
+        break;
+      case hour >= 17 && hour <= 20:
+        greet = "Good Evening";
+        break;
+    }
+    var currentYear = date.getFullYear();
+    var endOfYear = new Date(currentYear, 11, 31);
+
+    var timeDiff = endOfYear - date; //It will return the differnce in the millisecond
+
+    //Convert the millisecond in days
+    var leftDays = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+
+    document.write(
+      `Today is ${day},${date.getDate()} ${month} ${date.getFullYear()}, Welcome, and ${greet} to You.<br>
+        Number of Days till end of the year :${leftDays} `
+    );
+  </script>
+</body>
+
+</html>

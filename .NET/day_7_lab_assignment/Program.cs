@@ -7,6 +7,7 @@
             Console.WriteLine("Enter a String: ");
             string? str = Console.ReadLine();
             Console.WriteLine(str.CountVowel());
+			
 
         }
         

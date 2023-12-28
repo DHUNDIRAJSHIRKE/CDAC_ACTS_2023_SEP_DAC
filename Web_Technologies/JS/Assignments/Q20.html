@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Members</title>
+    <!-- <script>
+      //Method-1
+      //DOMContentLoaded: to ensure that the script runs AFTER the HTML content is fully loaded.
+      document.addEventListener("DOMContentLoaded", function () {
+        const arr = ["John", "Steve", "Ben", "Damon", "Ion"];
+        var listItem = arr.map((name) => `<li>${name}</li>`);
+        document.getElementById("list").innerHTML = listItem.join("");
+      });
+    </script> -->
+    <!-- <script src="/JS/Assignments/Q20.js"></script> -->
+  </head>
+  <body>
+    <h3>Members of my groups are</h3>
+    <ol id="list"></ol>
+    <script>
+      //Method-2
+      // Writen here to ensure that the script runs before the HTML content is fully loaded.
+      const arr = ["John", "Steve", "Ben", "Damon", "Ion"];
+      var listItem = arr.map((name) => `<li>${name}</li>`);
+      document.getElementById("list").innerHTML = listItem.join("");
+    </script>
+  </body>
+</html>

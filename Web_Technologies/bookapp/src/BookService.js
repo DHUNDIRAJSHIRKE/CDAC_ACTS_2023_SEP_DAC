@@ -18,5 +18,13 @@ class BookService {
   addBook(book) {
     this.bookArray.push(book);
   }
+  updateBook = (updatedBook) => {
+    let pos = this.bookArray.findIndex((book) => book.id === updatedBook.id);
+    this.bookArray.splice(pos, 1, updatedBook);
+  };
+  deleteBook = (book) => {
+    let pos = this.bookArray.findIndex((book) => book.id === book.id);
+    this.bookArray.splice(pos, 1);
+  };
 }
 export default new BookService();

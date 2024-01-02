@@ -1,0 +1,13 @@
+	DROP FUNCTION IF EXISTS sal_of_dept_of_id;
+	DELIMITER &&
+	CREATE FUNCTION sal_of_dept_of_id(id int)
+	RETURNS int
+	DETERMINISTIC
+	BEGIN
+		DECLARE dept VARCHAR(30);
+		DECLARE total int;
+		SELECT DEPARTMENT into dept FROM worker WHERE WORKER_ID = id;
+		SELECT SUM(SALARY) into total FROM worker WHERE DEPARTMENT=dept;
+		RETURN total;
+	END&&
+	DELIMITER ;

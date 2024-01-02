@@ -1,0 +1,14 @@
+DELIMITER &&
+CREATE TRIGGER tr_worker_insert_after
+AFTER INSERT ON worker	
+FOR EACH ROW
+BEGIN 
+	INSERT INTO worker_log values(new.FIRST_NAME,new.LAST_NAME,new.SALARY);
+END &&
+DELIMITER ;
+
+CREATE TABLE `worker_log`(
+		FIRST_NAME VARCHAR(30),
+		LAST_NAME VARCHAR(30),
+		SALARY INT
+	);

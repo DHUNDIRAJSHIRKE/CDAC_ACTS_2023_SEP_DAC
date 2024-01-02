@@ -1,0 +1,8 @@
+
+DROP PROCEDURE IF EXISTS starts_with;
+DELIMITER &&
+CREATE PROCEDURE starts_with()
+BEGIN 
+	SHOW TABLES like "w%";
+END &&
+DELIMITER ;

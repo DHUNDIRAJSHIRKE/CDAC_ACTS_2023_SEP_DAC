@@ -1,0 +1,27 @@
+#main {
+  position: relative;
+  border: 3px solid black;
+  height: 600px;
+  margin: 20px;
+}
+#toggle {
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.onbottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+}
+.ontop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+}

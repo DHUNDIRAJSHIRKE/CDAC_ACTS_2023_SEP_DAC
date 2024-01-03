@@ -1,0 +1,11 @@
+const { log } = require("console");
+const fs = require("fs");
+filename = "numbers.txt";
+const numbers = fs.readFileSync(filename, "utf8").split("\n").map(Number);
+const squares = numbers.map((e) => e * e);
+squares.map((s) => console.log(s));
+const sumOfSq = squares.reduce((acc, val) => acc + val);
+console.log("Total: " + sumOfSq);
+const sum = numbers.reduce((acc, val) => acc + val);
+const avg = sum / numbers.length;
+console.log("Average: " + avg);

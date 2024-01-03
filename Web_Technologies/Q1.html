@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        input {
+            width: 100px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        button {
+            padding: 8px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <label for="num1">1st Number :</label>
+    <input type="number" id="num1">
+
+    <label for="num2">2nd Number :</label>
+    <input type="number" id="num2">
+
+    <br>
+
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button>
+
+
+    <br>
+
+    <p id="result"></p>
+
+    <script>
+        function multiply() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+
+            var result = num1 * num2;
+
+            document.getElementById("result").innerText = "Result is: " + result;
+        }
+
+        function divide() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+
+            if (num2 !== 0) {
+                var result = num1 / num2;
+                document.getElementById("result").innerText = "Result: " + result;
+            } else {
+                document.getElementById("result").innerText = "Cannot divide by zero";
+            }
+        }
+    </script>
+</body>
+</html>
